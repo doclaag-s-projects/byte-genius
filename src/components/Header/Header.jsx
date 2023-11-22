@@ -12,7 +12,7 @@ export const Header = props => {
                     <span className="line">Código</span>
                 </h1>
                 <div className="buttons">
-                    <a href="#projects">Nuestro Portafolio</a>
+                    {/* <a href="#projects">Nuestro Portafolio</a> */}
                     <a href="#contact" className="cta">
                         Contacto
                     </a>
