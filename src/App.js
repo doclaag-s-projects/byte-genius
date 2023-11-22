@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { About, Footer, Header, Menu, Nav } from './components';
+import { About, Contact, Footer, Header, Menu, Nav } from './components';
 
 class App extends Component {
   state = {
@@ -24,7 +24,7 @@ class App extends Component {
         <Header />
         <About />
         {/* <Projects /> */}
-        {/* <Contact /> */}
+        <Contact />
         <Footer />
       </React.Fragment>
     );
