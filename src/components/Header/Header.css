@@ -58,6 +58,28 @@
     }
 }
 
+.daniel {
+    position: absolute;
+    bottom: 0;
+    left: 175px;
+    background: url(../../img/daniel.svg) bottom left no-repeat;
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+    animation: silhouette-move-in 1000ms 800ms forwards;
+}
+
+.francisco {
+    position: absolute;
+    bottom: 0;
+    left: -175px;
+    background: url(../../img/francisco.svg) bottom left no-repeat;
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+    animation: silhouette-move-in 1000ms 800ms forwards;
+}
+
 .silhouette {
     position: absolute;
     bottom: 0;

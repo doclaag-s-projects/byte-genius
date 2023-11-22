@@ -5,6 +5,8 @@ export const Header = props => {
         <header id="welcome-section">
             <div className="forest" />
             <div className="silhouette" />
+            <div className="daniel" />
+            <div className="francisco" />
             <div className="moon" />
             <div className="container">
                 <h1>
