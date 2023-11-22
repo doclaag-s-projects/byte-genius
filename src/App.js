@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { About, Menu } from './components';
+import { About, Header, Menu } from './components';
 
 class App extends Component {
   state = {
@@ -21,7 +21,7 @@ class App extends Component {
       <React.Fragment>
         <Menu toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
         {/* <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} /> */}
-        {/* <Header /> */}
+        <Header />
         <About />
         {/* <Projects /> */}
         {/* <Contact /> */}
