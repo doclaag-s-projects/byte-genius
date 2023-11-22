@@ -11,7 +11,6 @@ export const Nav = props => {
                         <strong>Genius</strong>
                     </p>
                     <a
-                        href='/'
                         onClick={props.toggleMenu}
                         className={props.showMenu === 'active' ? 'menu-button active' : 'menu-button'}
                     >
