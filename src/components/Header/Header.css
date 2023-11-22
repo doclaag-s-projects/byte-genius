@@ -61,7 +61,7 @@
 .daniel {
     position: absolute;
     bottom: 0;
-    left: 175px;
+    left: 10.938rem;
     background: url(../../img/daniel.svg) bottom left no-repeat;
     width: 50%;
     height: 50%;
@@ -72,7 +72,7 @@
 .francisco {
     position: absolute;
     bottom: 0;
-    left: -175px;
+    left: -10.938rem;
     background: url(../../img/francisco.svg) bottom left no-repeat;
     width: 50%;
     height: 50%;
@@ -241,5 +241,15 @@
 
     .silhouette {
         width: 100%;
+    }
+
+    .daniel {
+        width: 100%;
+        left: 8.3rem;
+    }
+
+    .francisco {
+        width: 100%;
+        left: -8.3rem;
     }
 }

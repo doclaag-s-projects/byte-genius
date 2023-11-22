@@ -46,7 +46,7 @@ export const Contact = props => {
                 <br />
                 <a
                     id="profile-link"
-                    href="https://api.whatsapp.com/send/?phone=50259404873&text=Hola+%22Byte+Genius%22%2C+me+gustar%C3%ADa+hablarles+de+un+proyecto:+&type=phone_number&app_absent=0"
+                    href="https://api.whatsapp.com/send/?phone=50236730429&text=Hola+%22Byte+Genius%22%2C+me+gustar%C3%ADa+hablarles+de+un+proyecto:+&type=phone_number&app_absent=0"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Link to the author's WhatsApp"
