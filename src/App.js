@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { About, Footer, Header, Menu } from './components';
+import { About, Footer, Header, Menu, Nav } from './components';
 
 class App extends Component {
   state = {
@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Menu toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
-        {/* <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} /> */}
+        <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
         <Header />
         <About />
         {/* <Projects /> */}
@@ -32,7 +32,7 @@ class App extends Component {
 
   // Parallax effect. Pretty heavy for slow devices.
   componentDidMount() {
-    // const navbar = document.querySelector('#navbar');
+    const navbar = document.querySelector('#navbar');
     const header = document.querySelector('#welcome-section');
     const forest = document.querySelector('.forest');
     const silhouette = document.querySelector('.silhouette');
@@ -50,8 +50,8 @@ class App extends Component {
         header.style.visibility = header.style.visibility === 'hidden' && 'visible';
       else header.style.visibility = 'hidden';
 
-      // if (scrollPos + 100 >= window.innerHeight) navbar.classList.add('bg-active');
-      // else navbar.classList.remove('bg-active');
+      if (scrollPos + 100 >= window.innerHeight) navbar.classList.add('bg-active');
+      else navbar.classList.remove('bg-active');
     };
 
     (function navSmoothScrolling() {
