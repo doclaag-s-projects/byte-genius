@@ -43,6 +43,17 @@ export const Contact = props => {
                     +502 5940 4873{' '}
                     <i className="fab fa-whatsapp" />
                 </a>
+                <br />
+                <a
+                    id="profile-link"
+                    href="https://api.whatsapp.com/send/?phone=50259404873&text=Hola+%22Byte+Genius%22%2C+me+gustar%C3%ADa+hablarles+de+un+proyecto:+&type=phone_number&app_absent=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Link to the author's WhatsApp"
+                >
+                    +502 3673 0429{' '}
+                    <i className="fab fa-whatsapp" />
+                </a>
             </div>
         </section>
     );
